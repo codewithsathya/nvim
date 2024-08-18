@@ -1,0 +1,26 @@
+{
+  "name": "user_snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./cpp.json"
+      },
+      {
+        "language": "cpp",
+        "path": "./cpp-templates.json.code-snippets"
+      },
+      {
+        "language": "cpp",
+        "path": "./alias-cpp.code-snippets"
+      },
+      {
+        "language": "cpp",
+        "path": "./print-cpp.code-snippets"
+      }
+    ]
+  }
+}

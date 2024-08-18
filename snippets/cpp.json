@@ -1,0 +1,71 @@
+{
+  "Import STL": {
+    "prefix": "stl",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;"
+    ],
+    "description": "Import STL"
+  },
+  "Test cases loop": {
+    "prefix": "tt",
+    "body": [
+      "int tt;",
+      "cin >> tt;",
+      "while(tt--) {",
+      "  $0",
+      "}"
+    ],
+    "description": "Test cases loop"
+  },
+  "for loop": {
+    "prefix": "forin",
+    "body": [
+      "for(int i = 0; i < n; i++) {",
+      "  $0",
+      "}"
+    ],
+    "description": "for loop"
+  },
+  "Binary exponentiation": {
+    "prefix": "binpow",
+    "body": [
+      "ll binpow(ll a, ll b) {",
+      "  ll res = 1;",
+      "  while(b) {",
+      "    if(b & 1) {",
+      "      res = res * a % MOD;",
+      "    }",
+      "    a = a * a % MOD;",
+      "    b >>= 1;",
+      "  }",
+      "  return res;",
+      "}"
+    ],
+    "description": "Binary exponentiation"
+  },
+  "Alias": {
+    "prefix": "alias",
+    "body": [
+      "#define ll    long long",
+      "#define vi    vector<int>",
+      "#define vll   vector<ll>",
+      "#define vvi   vector<vector<int>>",
+      "#define vvll  vector<vector<ll>>",
+      "",
+      "int MOD = 1e9 + 7;"
+    ],
+    "description": "Alias"
+  },
+  "forij": {
+    "prefix": "forij",
+    "body": [
+      "for(int i = 0; i < m; i++) {",
+      "  for(int j = 0; j < n; j++) {",
+      "    $0",
+      "  }",
+      "}"
+    ],
+    "description": "forij"
+  }
+}

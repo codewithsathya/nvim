@@ -1,0 +1,106 @@
+{
+	"unordered_map": {
+		"prefix": "umap",
+		"description": "unordered_map",
+		"scope": "cpp",
+		"body": [
+			"unordered_map<$0>"
+		]
+	},
+	"vector<vector<T>>": {
+		"prefix": "vvt",
+		"description": "vector<vector<T>>",
+		"scope": "cpp",
+		"body": [
+			"vector<vector<$0>>"
+		]
+	},
+	"vector<T>": {
+		"prefix": "vt",
+		"description": "vector<T>",
+		"scope": "cpp",
+		"body": [
+			"vector<$0>"
+		]
+	},
+	"pair<long long, long long>": {
+		"prefix": "pll",
+		"description": "pair<long long, long long>",
+		"scope": "cpp",
+		"body": [
+			"pair<ll, ll>"
+		]
+	},
+	"pair<int, int>": {
+		"prefix": "pii",
+		"description": "pair<int, int>",
+		"scope": "cpp",
+		"body": [
+			"pair<int, int>"
+		]
+	},
+	"vector<vector<bool>>": {
+		"prefix": "vvb",
+		"description": "vector<vector<bool>>",
+		"scope": "cpp",
+		"body": [
+			"vector<vector<bool>>"
+		]
+	},
+	"vector<bool>": {
+		"prefix": "vb",
+		"description": "vector<bool>",
+		"scope": "cpp",
+		"body": [
+			"vector<bool>"
+		]
+	},
+	"vector<vector<ll>>": {
+		"prefix": "vvll",
+		"description": "vector<vector<ll>>",
+		"scope": "cpp",
+		"body": [
+			"vector<vector<ll>>"
+		]
+	},
+	"vector<long long>": {
+		"prefix": "vll",
+		"description": "vector<long long>",
+		"scope": "cpp",
+		"body": [
+			"vector<ll>"
+		]
+	},
+	"vector<vector<int>>": {
+		"prefix": "vvi",
+		"description": "vector<vector<int>>",
+		"scope": "cpp",
+		"body": [
+			"vector<vector<int>>"
+		]
+	},
+	"vector<int>": {
+		"prefix": "vi",
+		"description": "vector<int>",
+		"scope": "cpp",
+		"body": [
+			"vector<int>"
+		]
+	}
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+}
