@@ -1,13 +1,26 @@
 {
+	"pbds": {
+		"prefix": "pbds",
+		"description": "",
+		"scope": "cpp",
+		"body": [
+			"#include <ext/pb_ds/assoc_container.hpp>",
+			"#include <ext/pb_ds/tree_policy.hpp>",
+			"using namespace __gnu_pbds;",
+			"",
+			"typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_set;"
+		]
+	},
 	"Import for debugging": {
 		"prefix": "dbg",
 		"description": "Import for debugging",
 		"scope": "cpp",
 		"body": [
 			"#ifndef ONLINE_JUDGE",
-			"#include <cp/debug.h>",
+			"#include <cf/debug.h>",
 			"#else",
 			"#define debug(...) 5",
+			"#define debugArr(...) 10",
 			"#endif"
 		]
 	},
@@ -32,7 +45,7 @@
 			"using namespace std;",
 			"using ll = long long;",
 			"",
-			"int MOD = 1e9 + 7;",
+			"int MOD = 1000000009;",
 			"",
 			"int main() {",
 			"  ios::sync_with_stdio(false);",
@@ -51,7 +64,7 @@
 			"using namespace std;",
 			"using ll = long long;",
 			"",
-			"int MOD = 1e9 + 7;",
+			"int MOD = 1000000009;",
 			"",
 			"void solve() {",
 			"  $0",

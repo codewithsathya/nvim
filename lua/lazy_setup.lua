@@ -12,6 +12,9 @@ require("lazy").setup({
     },
   },
   { import = "community" },
+  { import = "plugins/astro" },
+  { import = "plugins/core" },
+  { import = "plugins/lsp" },
   { import = "plugins" },
 } --[[@as LazySpec]], {
   -- Configure any other `lazy.nvim` configuration options here
