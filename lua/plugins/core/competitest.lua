@@ -59,12 +59,12 @@ return {
           },
         },
         popup_ui = {
-          total_width = 0.8,
-          total_height = 0.8,
+          total_width = 0.9,
+          total_height = 0.9,
           layout = {
             { 4, "tc" },
-            { 5, { { 1, "so" }, { 1, "si" } } },
-            { 5, { { 1, "eo" }, { 1, "se" } } },
+            { 5, { { 1, "si" }, { 1, "eo" } } },
+            { 5, { { 1, "se" }, { 1, "so" } } },
           },
         },
         split_ui = {
