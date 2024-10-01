@@ -21,5 +21,4 @@ return {
 
   { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
-  { import = "astrocommunity.motion.nvim-spider" },
 }
