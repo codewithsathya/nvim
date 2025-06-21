@@ -8,17 +8,5 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.java" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.bash" },
-  { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.xml" },
-  { import = "astrocommunity.pack.sql" },
-
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
-
-  { import = "astrocommunity.motion.hop-nvim" },
-  { import = "astrocommunity.motion.nvim-surround" },
+  -- import/override with your plugins folder
 }
