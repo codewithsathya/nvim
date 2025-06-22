@@ -19,7 +19,6 @@ return {
     { import = "astrocommunity.pack.proto" },
     { import = "astrocommunity.pack.python" },
     { import = "astrocommunity.pack.rust" },
-    { import = "astrocommunity.pack.spring-boot" },
     { import = "astrocommunity.pack.sql" },
     { import = "astrocommunity.pack.swift" },
     { import = "astrocommunity.pack.tailwindcss" },

@@ -41,8 +41,6 @@ return {
                 },
             },
             t = {
-                ["J"] = { "5j", desc = "5 lines down" },
-                ["K"] = { "5k", desc = "5 lines up" },
                 ["<C-`>"] = {
                     function() require("toggleterm").toggle() end,
                     desc = "Open terminal",
