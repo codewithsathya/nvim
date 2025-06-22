@@ -11,7 +11,7 @@ return {
     { import = "astrocommunity.pack.go" },
     { import = "astrocommunity.pack.helm" },
     { import = "astrocommunity.pack.html-css" },
-    { import = "astrocommunity.pack.java" },
+    -- { import = "astrocommunity.pack.java" },
     { import = "astrocommunity.pack.json" },
     { import = "astrocommunity.pack.lua" },
     { import = "astrocommunity.pack.markdown" },
@@ -23,7 +23,6 @@ return {
     { import = "astrocommunity.pack.swift" },
     { import = "astrocommunity.pack.tailwindcss" },
     { import = "astrocommunity.pack.typescript" },
-    { import = "astrocommunity.pack.xml" },
     { import = "astrocommunity.pack.yaml" },
 
     { import = "astrocommunity.colorscheme.catppuccin" },

@@ -11,7 +11,7 @@ return {
                 sh = "bash",
                 cpp = {
                     "cd $dir &&",
-                    "g++-15 -std=c++20 -I/Users/codewithsathya/Desktop/cp/other/cp-headers $fileName",
+                    "g++ -std=c++20 $fileName",
                     "-o /tmp/$fileNameWithoutExt &&",
                     "/tmp/$fileNameWithoutExt",
                 },
