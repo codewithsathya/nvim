@@ -26,6 +26,12 @@ return {
     { import = "astrocommunity.pack.xml" },
     { import = "astrocommunity.pack.yaml" },
 
+    { import = "astrocommunity.media.vim-wakatime" },
+    { import = "astrocommunity.scrolling.nvim-scrollbar" },
+
+
+
+
     { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.editing-support.auto-save-nvim" },
 }
