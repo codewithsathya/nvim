@@ -1,10 +1,65 @@
 {
+	"omat": {
+		"prefix": "omat",
+		"description": "Snippet for operator << overriding to print matrix",
+		"scope": "cpp",
+		"body": [
+			"template<typename T>ostream&operator<<(ostream&os,const vector<vector<T>>&v){for(auto&r:v){for(auto&e:r)os<<e<<' ';os<<'\\n';}return os;}",
+			""
+		]
+	},
+	"oarr": {
+		"prefix": "oarr",
+		"description": "Snippet for operator << overriding for printing vector",
+		"scope": "cpp",
+		"body": [
+			"template<typename T>ostream&operator<<(ostream& os,const vector<T>& v){for(auto&e:v)os<<e<<' ';return os;}"
+		]
+	},
+	"std": {
+		"prefix": "std",
+		"description": "Import stdc++",
+		"scope": "cpp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			""
+		]
+	},
+	"forin": {
+		"prefix": "forin",
+		"description": "for loop from i = 0 to n",
+		"scope": "cpp",
+		"body": [
+			"for(int i = 0; i < n; i++) {",
+			"    $0",
+			"}"
+		]
+	},
+	"forjm": {
+		"prefix": "forjm",
+		"description": "for loop from j = 0 to m",
+		"scope": "cpp",
+		"body": [
+			"for(int j = 0; j < m; j++) {",
+			"    $0",
+			"}"
+		]
+	},
 	"unordered_map": {
 		"prefix": "umap",
 		"description": "unordered_map",
 		"scope": "cpp",
 		"body": [
 			"unordered_map<$0>"
+		]
+	},
+	"unordered_set": {
+		"prefix": "uset",
+		"description": "unordered_set",
+		"scope": "cpp",
+		"body": [
+			"unordered_set<$0>"
 		]
 	},
 	"vector<vector<T>>": {
@@ -85,6 +140,14 @@
 		"scope": "cpp",
 		"body": [
 			"vector<int>"
+		]
+	},
+	"vector<string>": {
+		"prefix": "vs",
+		"description": "vector<string>",
+		"scope": "cpp",
+		"body": [
+			"vector<string>"
 		]
 	}
 	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 

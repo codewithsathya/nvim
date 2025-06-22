@@ -7,10 +7,6 @@
     "snippets": [
       {
         "language": "cpp",
-        "path": "./cpp.json"
-      },
-      {
-        "language": "cpp",
         "path": "./cpp-templates.code-snippets"
       },
       {

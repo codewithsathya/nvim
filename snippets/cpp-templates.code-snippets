@@ -30,10 +30,10 @@
 		"scope": "cpp",
 		"body": [
 			"int t;",
-			"  cin >> t;",
-			"  while(t--) {",
-			"     $0",
-			"  }"
+			"    cin >> t;",
+			"    while(t--) {",
+			"        $0",
+			"    }"
 		]
 	},
 	"CP template": {
@@ -47,11 +47,15 @@
 			"",
 			"int MOD = 1000000009;",
 			"",
+			"void solve() {",
+			"    $0",
+			"}",
+			"",
 			"int main() {",
-			"  ios::sync_with_stdio(false);",
-			"  cin.tie(nullptr);",
-			"  $0",
-			"  return 0;",
+			"    ios::sync_with_stdio(false);",
+			"    cin.tie(nullptr);",
+			"    solve();",
+			"    return 0;",
 			"}"
 		]
 	},
@@ -67,18 +71,18 @@
 			"int MOD = 1000000009;",
 			"",
 			"void solve() {",
-			"  $0",
+			"    $0",
 			"}",
 			"",
 			"int main() {",
-			"  ios::sync_with_stdio(false);",
-			"  cin.tie(nullptr);",
-			"  int t;",
-			"  cin >> t;",
-			"  while(t--) {",
-			"    solve();",
-			"  }",
-			"  return 0;",
+			"    ios::sync_with_stdio(false);",
+			"    cin.tie(nullptr);",
+			"    int t;",
+			"    cin >> t;",
+			"    while(t--) {",
+			"        solve();",
+			"    }",
+			"    return 0;",
 			"}"
 		]
 	}
