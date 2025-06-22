@@ -28,6 +28,7 @@ return {
 
     { import = "astrocommunity.media.vim-wakatime" },
     { import = "astrocommunity.scrolling.nvim-scrollbar" },
+    { import = "astrocommunity.bars-and-lines.vim-illuminate" },
 
 
 
