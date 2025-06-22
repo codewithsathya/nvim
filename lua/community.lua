@@ -30,8 +30,8 @@ return {
     { import = "astrocommunity.scrolling.nvim-scrollbar" },
     { import = "astrocommunity.bars-and-lines.vim-illuminate" },
 
-
-
+    { import = "astrocommunity.game.leetcode-nvim" },
+    { import = "astrocommunity.indent.indent-rainbowline" },
 
     { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.editing-support.auto-save-nvim" },
