@@ -30,6 +30,5 @@ return {
     { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.editing-support.auto-save-nvim" },
 
-
     { import = "astrocommunity.docker.lazydocker" },
 }
