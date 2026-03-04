@@ -11,16 +11,11 @@ return {
     { import = "astrocommunity.pack.go" },
     { import = "astrocommunity.pack.helm" },
     { import = "astrocommunity.pack.html-css" },
-    { import = "astrocommunity.pack.java" },
     { import = "astrocommunity.pack.json" },
     { import = "astrocommunity.pack.lua" },
     { import = "astrocommunity.pack.markdown" },
-    { import = "astrocommunity.pack.nginx" },
-    { import = "astrocommunity.pack.proto" },
     { import = "astrocommunity.pack.python" },
-    { import = "astrocommunity.pack.rust" },
     { import = "astrocommunity.pack.sql" },
-    { import = "astrocommunity.pack.swift" },
     { import = "astrocommunity.pack.tailwindcss" },
     { import = "astrocommunity.pack.typescript" },
     { import = "astrocommunity.pack.xml" },
@@ -30,9 +25,11 @@ return {
     { import = "astrocommunity.scrolling.nvim-scrollbar" },
     { import = "astrocommunity.bars-and-lines.vim-illuminate" },
 
-    { import = "astrocommunity.game.leetcode-nvim" },
     { import = "astrocommunity.indent.indent-rainbowline" },
 
     { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.editing-support.auto-save-nvim" },
+
+
+    { import = "astrocommunity.docker.lazydocker" },
 }
